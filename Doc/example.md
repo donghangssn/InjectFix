@@ -74,4 +74,4 @@ Fix的过程是根据修改后的代码编译后的dll，生成补丁。
 
 ### 五、看看效果
 
-回滚对Add为错误逻辑，执行"InjectFix/Inject"菜单（只有注入过的版本才能加载补丁）。然后运行，可以看到Add此时为错误逻辑，然后把Assembly-CSharp.patch.bytes拷贝到\Assets\IFix\Resources下，重新执行，可以看到已经修复到新逻辑。
+回滚对Add为错误逻辑，执行"InjectFix/Inject"菜单（只有注入过的版本才能加载补丁）。然后运行，可以看到Add此时为错误逻辑，然后把Assembly-CSharp.patch.bytes拷贝到\Assets\Resources下，重新执行，可以看到已经修复到新逻辑。
